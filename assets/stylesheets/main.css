@@ -1,0 +1,340 @@
+@import url("whitespace-reset.css");
+
+body {
+  margin: 0;
+  font: normal 13px "Open Sans", helvetica, arial, sans-serif;
+  color: #444;
+}
+
+header {
+  text-align: center;
+  margin: 0 auto;
+}
+
+header #menu {
+  width: 100%;
+  display: block;
+  position: fixed;
+  z-index: 1;
+  background: #fff;
+  border-top: 10px solid #f5f5f5;
+  border-bottom: 1px solid #efefef;
+}
+
+header ul {
+  margin: 0 auto;
+  padding: 0;
+  max-width: 960px;
+  text-align: center;
+}
+
+
+header li {
+  display: inline;
+  padding: 0 25px;
+  list-style: none;
+}
+
+header li a {
+  color: #444;
+  line-height: 44px;
+  text-transform: uppercase;
+}
+
+a[href] {
+  text-decoration: none;
+  color: #444;
+}
+a[href]:hover {
+  text-decoration: underline;
+}
+
+header div#front {
+  height: 428px;
+  top: 55px;
+  text-align: center;
+  position: relative;
+  background: url("../images/bg_header.jpg") center no-repeat;
+  font: normal 78px "Open Sans", helvetica, arial, sans-serif;
+  margin-bottom: 55px;
+}
+
+#front #logo {
+  position: relative;
+  top: 150px;
+  width: 80px;
+  height: 80px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.4), 0 0 30px rgba(0,0,0,.075);
+}
+
+
+#front h1,
+#front h2 {
+  position: relative;
+  top: 135px;
+  font-weight: normal;
+  text-shadow: 0 1px 3px rgba(0,0,0,.4), 0 0 30px rgba(0,0,0,.075);
+  text-align: center;
+  color: #fff;
+}
+
+h1 {
+  font-size: 72px;
+}
+
+h2 {
+  font-size: 31px;
+  text-transform: uppercase;
+}
+
+div {
+  /*border-bottom: 1px solid #efefef;*/
+  border-top: 1px solid #efefef;
+}
+
+
+#tickets h1,
+#speakers h1,
+#schedule h1,
+#schedule h2,
+#papers h1,
+#sponsors h1,
+#footer h1 {
+  display: block;
+  margin: 60px auto 0 auto;
+  font-size: 48px;
+  font-weight: 100;
+  padding-bottom: 10px;
+}
+
+#tickets h1,
+#tickets p,
+#speakers h1,
+#speakers,
+#schedule h1,
+#papers h1,
+#sponsors h1,
+#footer h1 {
+  text-align: center;
+}
+
+#tickets p {
+  font-size: 16px;
+  max-width: 960px;
+  font-weight: 300;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+#tickets p + p {
+  padding-bottom: 80px;
+}
+
+a.button {
+  padding: 10px 30px;
+  color: white;
+  background: #008000;
+  font-weight: bold;
+}
+
+#speakers {
+  width: 100%;
+  padding-bottom: 60px;
+}
+
+#speakers ul {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+#speakers li {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  margin: 5px;
+  width: 280px;
+  height: 378px;
+  text-align: center;
+  background: #fff;
+  border: 1px solid #e8e8e8;
+}
+
+#speakers h2 {
+    color: #008000;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 30px 0 10px 0;
+    text-transform: none;
+}
+
+#speakers p {
+  font-size: 16px;
+  padding: 0 10px;
+  font-weight: 300;
+}
+
+#schedule {
+  width: 100%;
+}
+
+#schedule h2,
+#schedule td {
+  font-size: 24px;
+  text-transform: none;
+  font-weight: normal;
+}
+
+#schedule h2 {
+  display: inline;
+}
+
+#schedule td {
+  font-size: 24px;
+}
+
+
+#schedule table {
+  width: 960px;
+  margin: 0 auto;
+}
+
+#schedule td {
+  padding: 10px;
+  border-top: 1px solid #eee;
+}
+
+#schedule h3 a,
+#footer p a {
+  font-size: 18px;
+  color: #008000;
+  font-weight: bold;
+}
+
+.photo img {
+  width: 130px;
+}
+
+#schedule tr:last-of-type td {
+  border-bottom: 1px solid #eee;
+}
+
+#schedule table {
+  margin-bottom: 50px;
+}
+
+#papers {
+  width: 100%;
+}
+
+
+#papers p {
+  margin: 0 auto 17px;
+  max-width: 960px;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 25px;
+}
+
+#papers a.button {
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+}
+
+#sponsors {
+  width: 960px;
+  margin: 0 auto 80px auto;
+}
+
+
+
+#sponsors h3 {
+  font-size: 18px;
+  margin: 30px 0;
+}
+
+.gold-sponsor,
+.silver-sponsor,
+.support-sponsor {
+  margin-right: 40px;
+}
+
+.gold-sponsor {
+  width: 300px;
+}
+
+.silver-sponsor {
+  width: 240px;
+}
+
+.support-sponsor {
+  width: 180px;
+}
+
+#footer {
+  background-size: cover !important;
+  height: 340px;
+  background: url(../images/people.jpg) no-repeat center 23%;
+  text-shadow: 0 1px 3px rgba(0,0,0,.4), 0 0 30px rgba(0,0,0,.075);
+}
+
+#footer h1,
+#footer h2,
+#footer p {
+  color: #fff;
+}
+#footer h1 {
+  margin-top: 30px;
+}
+
+#dark-background {
+  background: rgba(0,0,0,.7);
+  border: none;
+  padding: 5px 0 30px 0;
+}
+
+#dark-background h2,
+#dark-background p {
+  width: 960px;
+  margin: 0 auto;
+  text-align: left;
+
+}
+
+#dark-background h2 {
+  padding-top: 10px;
+  font-size: 31;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+#dark-background p {
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: 300;
+
+}
+
+#dark-background p + p {
+  padding: 20px 0 0 0;
+}
+#dark-background a.button {
+  color: #fff;
+}
+
+#schedule span {
+  display: inline-block;
+  padding: 1px 4px;
+  font-size: 7px;
+  background: #EEE;
+  border: 1px solid #AAA;
+}
+
+
+
+
+
+
+
+
+
